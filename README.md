@@ -1,7 +1,7 @@
 # ORCHESTRA Pseudonymization Tool
 
 > The ORCHESTRA Pseudonymization Tool (OPT) is a pragmatic tool for 
-> pseudonymizing patient and sample data. It supports both single 
+> pseudonymizing subject and sample data. It supports both single 
 > and multi-site use without worrying about pseudonym duplication. 
 > It can also be used to manage pseudonymized data and generate sample 
 > labels. Designed for rapid deployment, OPT has minimal technical 
