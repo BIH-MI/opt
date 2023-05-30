@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>ORCHESTRA Label Print Application</title>
+		<!-- <script type="text/javascript" src="https://orchestra-cohort.eu/header.js"></script> -->
+	    <script src="qrcode.min.js"></script>
+		<script src="datamatrix.min.js"></script>
+		<script src="barcode.min.js"></script>
+	    <script src="labels.js"></script>
+	    <link rel="stylesheet" href="labels.css">
+	</head>
+	<body>
+		<!-- <nav id="rps-header" class="rps-header no-print"></nav> -->
+		<div class="no-print">
+
+			<h2>Sample & Print Properties</h2>
+			<h3>Sample Properties</h3>
+			<textarea id="inputArea" placeholder="Enter in the form 'ORCsampleID;ORCpatientID;SampleType;Timepoint'&#10;&#10;You can use semicolon, comma, dot or tab as delimiter."></textarea><br>
+			
+			<form class="frame">
+				<input type="radio" id="dm_code" name="code" value="DM_code" checked="checked">
+				<label for="dm_code">DataMatrix-Code</label>
+				<input type="radio" id="qr_code" name="code" value="QR_code">
+				<label for="qr_code">QR-Code</label>
+				<input type="radio" id="barcode" name="code" value="Barcode">
+				<label for="barcode">Barcode</label>
+			</form>
+
+			<h3>Print Properties</h3>
+			<form class="frame">
+				<label for="printColumns">Number of columns:</label>
+				<input type="text" name="printColumns" id="printColumns" ><br>
+				<br>
+				<label for="printRows">Number of rows:</label>
+				<input type="text" name="printRows" id="printRows"  ><br>				
+			</form><br>
+
+			<form class="frame">
+				<label for="col_spacing">Spacing between columns:</label>
+				<input type="number" id="col_spacing_value" step="1" name="col_spacing" min="0">
+				<br><br>
+				<label for="row_spacing">Spacing between rows:</label>
+				<input type="number" id="row_spacing_value" step="1" name="row_spacing" min="0">
+			</form>
+			<br>
+			<button class="btn" onclick="refreshLabels();">Refresh Labels</button> 
+
+			<h2 id="labelHeader">Labels</h2>
+			<button class="btn" onclick="window.print();">Print Labels</button>
+			<br>
+			<br>
+
+		</div>
+		
+		<div id="multiLabelArea"></div>
+		
+	</body>
+</html>
