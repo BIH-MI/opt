@@ -57,6 +57,13 @@ For using the tool, you need to download it from the repository first. We recomm
         │   └── datamatrix.min.js
         └── OPT_Backups
 
+To achieve this, the following steps must be carried out:
+1) Create a new folder at the place where the OPT should be located later. 
+2) In the repository folder "opt-tools" you will find both OPT versions (Excel & LibreOffice). Download the required version.
+2) In the repository folder "documentation" you will find the user manual. Please download it.
+3) In the repository folder "muslti-user-scripts" you will find both script versions (Excel & LibreOffice). Please download the corresponding version.
+4) In the repository folder "label-printing-app" can be found. Please download this folder.
+5) Create a new folder named "Backups". 
 
 If you use the OPT only on one computer, you can create the folder structure on your PC as you like. However, if you plan to work with it together with others, then you should save it on an internal network drive to which your colleagues have access. 
 You should strongly avoid using online applications such as Excel-Online or Sharepoint, as they often conflict with documents, which can lead to data loss and/or duplicate registrations! 
