@@ -1,50 +1,44 @@
 # ORCHESTRA Pseudonymization Tool
 
-> Developed in the ORCHESTRA EU-project as part of Europe's rapid response to the COVID-19 pandemic, the ORCHESTRA Pseudonymization Tool (OPT) is a pragmatic tool for pseudonymizing subject
-> and sample data. Designed for rapid deployment, the OPT has minimal technical requirements and needs no installation. Just like for the usage, the setup does not require any technical
-> expertise. It supports also both single and multi-site use without worrying about pseudonym duplication. The tool is available as open source for unlimited use and customization.
+> Developed in the ORCHESTRA project as part of the EU's rapid response to the COVID-19 pandemic, the ORCHESTRA Pseudonymization Tool (OPT) is a pragmatic software for pseudonymizing subject
+> and sample data. Designed for rapid deployment, the OPT has minimal technical requirements and needs no installation. Its use and setup do not require any technical
+> expertise. It supports also both single and multi-site scenarios while handling pseudonym duplication.
 
 ---
 
 ## Prerequisites
 
-For using the OPT you only need Microsoft Excel (preferred) or LibreOffice Calc.
-If you do not have both installed on your computer, you can easily download [LibreOffice](https://de.libreoffice.org/download/download/) for free.
-
-Please make sure that macros are enabled.
+The OPT uses a runtime environment that is available virtually everywhere without further technical setups: spreadsheet software in the form of Microsoft Excel (preferred) or LibreOffice Calc.
+If you do not have any of them installed on your computer, you can download [LibreOffice](https://de.libreoffice.org/download/download/) for free. Please make sure that macros are enabled.
 
 ## Launching
 
-After downloading, the tool must be configured according to the context of use. This must be done initially before the first use. After the first use, it is strongly recommended not to change the configuration anymore.
+After downloading the OPT, it must be configured according to its context of use. This must be done initially before the first patients or samples are registered. After the first use, it is strongly recommended not to change the configuration anymore.
 
 ## Features
 
-The OPT was built to allow non-technical personell in medical research perform simple patient and sample data pseudonymization. 
-We tried to achieve a very low threshold of technical prerequisites by using spreadsheet applications, which in most cases, is already avaible anywhere.
+The main functionalities of the OPT are the management of the identities of patients or study participants as well as biosamples for medical research projects and the generation and management of secure pseudonyms.
 
-* No installation
-* Rapid rollout
+* No installation needed
+* Suitable for rapid rollout
 * Easy to set up and use
 * Pseudonymization of subject and sample data
-* Management of pseudonymized data
-* Record Linkage
-* Label generator (with optional DataMatrix, QR or Barcode)
-* High adaptability and flexibility
+* Management of pseudonyms
+* Simple record linkage mechanisms
+* Generation of biosample labels (with optional DataMatrix, QR or Barcode)
+* Highly configurable
 
 ## Screenshot
 
 ![Screenshot](development/documentation/overview.png)
 
-
 ![Screenshot](development/documentation/labels.png)
 
 ## Quick start guide
 
-To use the tool, you must first download it from the repository. 
-For this purpose, we have created the "Release" folder in this GitHub repository. 
-This folder contains an "opt-excel-bundle" and an "opt-libreoffice-bundle". 
-Everything you need is in here, you don't need the other stuff! 
-Please download the repository and choose the bundle version you need. 
+To use the OPT, you need to first download it from the "Release" folder in this GitHub repository. 
+The folder contains an "opt-excel-bundle" and an "opt-libreoffice-bundle", which you can use according to your environment.
+No further files are needed.
 The structure of the bundles is as follows:
 
         opt-excel-bundle / opt-libreoffice-bundle
@@ -60,9 +54,10 @@ The structure of the bundles is as follows:
         │   └── datamatrix.min.js
         └── backups
 
-If you only use the OPT on one computer, you can place the bundle anywhere on your PC. However, if you plan to work with it together with others, you should store it on an internal network drive that your colleagues can access. You should definitely avoid using online applications like Excel-Online or Sharepoint for the OPT, as they can often lead to conflict files, resulting in data loss and/or duplicate entries!
+For using the OPT on one computer, the bundle can be placed anywhere on the PC. In a multi-user setting, the OPT needs to be stord on an internal network drive that all users can access. 
+*The OPT does not work in oneline appliations, such as Office 365.*
 
-Once you have downloaded the repository and selected the required bundle, you can start the OPT by double-clicking on "OPT_Excel.xslm" or "OPT_LibreOffice.ods". Now you can go directly to the configuration worksheet. Make all necessary configurations there. Right-click on the worksheet tab and select "(Un-)Hide" to (un)hide the worksheet. Finally, you can also protect the document structure with a password (Menu -> Tools -> Protect document structure). Please make sure to note down the password. The password cannot be recovered in case of loss!
+Once you have downloaded the repository and selected the required bundle, you can start the OPT by double-clicking on "OPT_Excel.xslm" or "OPT_LibreOffice.ods". Now you can go directly to the configuration worksheet. Make all necessary configurations there. Right-click on the worksheet tab and select "(Un-)Hide" to (un)hide the worksheet. Finally, you can also protect the document structure with a password (Menu -> Tools -> Protect document structure). Please make sure to store the password safely - the password cannot be recovered.
 
 ## License
 
