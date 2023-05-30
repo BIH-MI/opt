@@ -34,6 +34,8 @@ We tried to achieve a very low threshold of technical prerequisites by using spr
 ## Screenshot
 
 ![Screenshot](documentation/overview.png)
+
+
 ![Screenshot](documentation/labels.png)
 
 ## Quick start guide
