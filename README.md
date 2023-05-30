@@ -11,10 +11,6 @@
 
 ---
 
-### [Prerequisites](#prerequisites) ⚫ [Launching](#launching) ⚫ [Features](#features) ⚫ [Screenshot](#screenshot) ⚫ [Quick start guide](#quick-start-guide) ⚫ [License](#license) ⚫ [Acknowledgements](#acknowledgments)
-
----
-
 ## Prerequisites
 
 For using the OPT you only need Microsoft Excel (preferred) or LibreOffice Calc.
