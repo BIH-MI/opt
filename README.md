@@ -46,12 +46,12 @@ For using the tool, you need to download it from the repository first. We recomm
 
         OPT
         ├── OPT_Excel.xlsm / OPT_LibreOffice.ods
-        ├── OPT_UserManual.pdf
-        ├── OPT_ReadOnly_Excel.bat / OPT_ReadOnly_LibreOffice.bat
-        ├── OPT_LabelGenerator
-        │   ├── labelGenerator.js
-        │   ├── labelGenerator.html
-        │   ├── labelGenerator.css
+        ├── user-manual.pdf
+        ├── readonly-excel.bat / readonly-libreoffice.bat
+        ├── label-printing-app
+        │   ├── label-generator.js
+        │   ├── label-generator.html
+        │   ├── label-generator.css
         │   ├── barcode.min.js
         │   ├── qrcode.min.js
         │   └── datamatrix.min.js
