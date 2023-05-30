@@ -38,7 +38,7 @@ We tried to achieve a very low threshold of technical prerequisites by using spr
 
 ## Screenshot
 
-![Screenshot](doc/overview.png)
+![Screenshot](documentaion/overview.png)
 
 ## Quick start guide
 
