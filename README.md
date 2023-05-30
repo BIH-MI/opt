@@ -11,7 +11,7 @@
 
 ---
 
-### [Prerequisites](#prerequisites) ⚫ [Installation](#installation) ⚫ [Features](#features) ⚫ [Screenshot](#screenshot) ⚫ [Quick start guide](#quick-start-guide) ⚫ [Contact](#contact) ⚫ [License](#license) ⚫ [Acknowledgements](#acknowledgments)
+### [Prerequisites](#prerequisites) ⚫ [Launching](#launching) ⚫ [Features](#features) ⚫ [Screenshot](#screenshot) ⚫ [Quick start guide](#quick-start-guide) ⚫ [License](#license) ⚫ [Acknowledgements](#acknowledgments)
 
 ---
 
