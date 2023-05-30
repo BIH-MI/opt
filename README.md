@@ -33,16 +33,20 @@ We tried to achieve a very low threshold of technical prerequisites by using spr
 
 ## Screenshot
 
-![Screenshot](documentation/overview.png)
+![Screenshot](development/documentation/overview.png)
 
 
-![Screenshot](documentation/labels.png)
+![Screenshot](development/documentation/labels.png)
 
 ## Quick start guide
 
-For using the tool, you need to download it from the repository first. We recommend that you create a folder structure that looks like this: 
+For using the tool, you need to download it from the repository first. For this purpose, we have created the folder "Release" in this GitHub repository. 
+This folder contains an "opt-excel-bundle" and an "opt-libreoffice-bundle". 
+Everything you need is in here, you do not need the other stuff!
+Please download the repository and pick the bundle-version you need. 
+The structure of the bundles look like this:
 
-        OPT
+        opt-excel-bundle / opt-libreoffice-bundle
         ├── OPT_Excel.xlsm / OPT_LibreOffice.ods
         ├── user-manual.pdf
         ├── readonly-excel.bat / readonly-libreoffice.bat
@@ -53,20 +57,13 @@ For using the tool, you need to download it from the repository first. We recomm
         │   ├── barcode.min.js
         │   ├── qrcode.min.js
         │   └── datamatrix.min.js
-        └── OPT_Backups
+        └── backups
 
-To achieve this, the following steps must be carried out:
-1) Create a new folder at the place where the OPT should be located later. 
-2) In the repository folder "opt-tools" you will find both OPT versions (Excel & LibreOffice). Download the required version.
-2) In the repository folder "documentation" you will find the user manual. Please download it.
-3) In the repository folder "muslti-user-scripts" you will find both script versions (Excel & LibreOffice). Please download the corresponding version.
-4) In the repository folder "label-printing-app" can be found. Please download this folder.
-5) Create a new folder named "Backups". 
+If you use the OPT only on one computer, you can place the bundle on your PC as you like. 
+However, if you plan to work with it together with others, then you should save it on an internal network drive to which your colleagues have access. 
+You should strongly avoid using online applications such as Excel-Online or Sharepoint for the OPT, as they often conflict with documents, which can lead to data loss and/or duplicate registrations! 
 
-If you use the OPT only on one computer, you can create the folder structure on your PC as you like. However, if you plan to work with it together with others, then you should save it on an internal network drive to which your colleagues have access. 
-You should strongly avoid using online applications such as Excel-Online or Sharepoint, as they often conflict with documents, which can lead to data loss and/or duplicate registrations! 
-
-When you have downloaded the tool and created the folder structure, you can start the OPT by double-clicking on "OPT_Excel.xslm" or "OPT_Excel.xslm". Then switch directly to the configuration worksheet. Make all necessary configurations there. Right-click on the worksheet tab and select "Hide" to hide the worksheet. Finally, you can also protect the document structure with a password (Menu, Tools, Protect document structure). Please be sure to note the password. The password cannot be recovered in case of loss. 
+When you have downloaded the repository and picked the required bundle, you can start the OPT by double-clicking on "OPT_Excel.xslm" or "OPT_LibreOffice.ods". Now you can switch directly to the configuration worksheet. Make all necessary configurations there. With a right-click on the worksheet tab and selecting "(Un-)Hide", you can (un-)hide the worksheet. Finally, you can also protect the document structure with a password (Menu -> Tools -> Protect document structure). Please be sure to note the password. The password cannot be recovered in case of loss!
 
 ## License
 
