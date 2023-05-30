@@ -49,9 +49,9 @@ For using the tool, you need to download it from the repository first. We recomm
         ├── user-manual.pdf
         ├── readonly-excel.bat / readonly-libreoffice.bat
         ├── label-printing-app
-        │   ├── label-generator.js
-        │   ├── label-generator.html
-        │   ├── label-generator.css
+        │   ├── labels.js
+        │   ├── labels.html
+        │   ├── labels.css
         │   ├── barcode.min.js
         │   ├── qrcode.min.js
         │   └── datamatrix.min.js
