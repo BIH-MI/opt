@@ -57,7 +57,7 @@ The structure of the bundles is as follows:
 For using the OPT on one computer, the bundle can be placed anywhere on the PC. In a multi-user setting, the OPT needs to be stord on an internal network drive that all users can access. 
 *The OPT does not work in oneline appliations, such as Office 365.*
 
-Once you have downloaded the repository and selected the required bundle, you can start the OPT by double-clicking on "OPT_Excel.xslm" or "OPT_LibreOffice.ods". Now you can go directly to the configuration worksheet. Make all necessary configurations there. Right-click on the worksheet tab and select "(Un-)Hide" to (un)hide the worksheet. Finally, you can also protect the document structure with a password (Menu -> Tools -> Protect document structure). Please make sure to store the password safely - the password cannot be recovered.
+Once you have downloaded the repository and selected the required bundle, you can start the OPT by double-clicking on "OPT_Excel.xslm" or "OPT_LibreOffice.ods". Please perform the entire configuration according to the description in the user manual before using it for the first time. 
 
 ## License
 
