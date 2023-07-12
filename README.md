@@ -2,7 +2,7 @@
 
 > Developed in the ORCHESTRA project as part of the EU's rapid response to the COVID-19 pandemic, the ORCHESTRA Pseudonymization Tool (OPT) is a pragmatic software for pseudonymizing subject
 > and sample data. Designed for rapid deployment, the OPT has minimal technical requirements and needs no installation. Its use and setup do not require any technical
-> expertise. It supports also both single and multi-site scenarios while handling pseudonym duplication.
+> expertise. It also supports both single and multi-site scenarios while handling pseudonym duplication.
 
 ---
 
@@ -21,7 +21,7 @@ The main functionalities of the OPT are the management of the identities of pati
 
 * No installation needed
 * Suitable for rapid rollout
-* Easy to set up and use
+* Easy to setup and use
 * Pseudonymization of subject and sample data
 * Management of pseudonyms
 * Simple record linkage mechanisms
@@ -54,8 +54,8 @@ The structure of the bundles is as follows:
         │   └── datamatrix.min.js
         └── backups
 
-For using the OPT on one computer, the bundle can be placed anywhere on the PC. In a multi-user setting, the OPT needs to be stord on an internal network drive that all users can access. 
-*The OPT does not work in oneline appliations, such as Office 365.*
+For using the OPT on one computer, the bundle can be placed anywhere on the PC. In a multi-user setting, the OPT needs to be stored on an internal network drive that all users can access. 
+*The OPT does not work in online appliations, such as Office 365.*
 
 Once you have downloaded the repository and selected the required bundle, you can start the OPT by double-clicking on "OPT_Excel.xslm" or "OPT_LibreOffice.ods". Please perform the entire
 configuration according to the description in the [user manual](./development/documentation/user-manual.pdf), which is also included in your bundle, before using it for the first time. It takes only a few minutes.
